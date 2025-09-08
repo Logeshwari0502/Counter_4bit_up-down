@@ -127,6 +127,7 @@ Select Multiple Step and then select “Create cds.lib File” as shown in below
 
 Click the cds.lib file and save the file by clicking on Save option
 
+<img width="1920" height="1080" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/e4a71df7-63fc-44d4-9fb3-9a915e75637b" />
 
 
 ## Fig 4: cds.lib file Creation
@@ -137,6 +138,7 @@ Select “Don’t include any libraries (verilog design)” from “New cds.lib 
 
 We are simulating verilog design without using any libraries
 
+<img width="1920" height="1080" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/15ffab7b-5642-4d80-bac1-561731cf9027" />
 
 ## Fig 5: Selection of Don’t include any libraries
 
@@ -148,8 +150,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
-<img width="1920" height="1080" alt="Screenshot (189)" src="https://github.com/user-attachments/assets/e4a71df7-63fc-44d4-9fb3-9a915e75637b" />
-
+<img width="1920" height="1080" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/915e007d-7cdc-4223-b835-89ac0ae27df5" />
 
 ## Fig 6: Nclaunch Window
 
@@ -174,8 +175,7 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
-<img width="1920" height="1080" alt="Screenshot (191)" src="https://github.com/user-attachments/assets/15ffab7b-5642-4d80-bac1-561731cf9027" />
-
+<img width="1920" height="1080" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/82026a1a-c5d4-4fa1-96e0-d605a7d88c17" />
 
 
 ## Fig 7: Compiled database in worklib
@@ -187,6 +187,7 @@ Select the test bench and compile it. It will come under worklib. Under Worklib 
 The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+
 
 ## Step 2: Elaboration:– To check the port connections in hierarchical design 
 
@@ -208,7 +209,7 @@ Steps for elaboration – Run the elaboration command with elaborate options
     
 After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-<img width="1920" height="1080" alt="Screenshot (192)" src="https://github.com/user-attachments/assets/915e007d-7cdc-4223-b835-89ac0ae27df5" />
+<img width="1920" height="1080" alt="Screenshot (194)" src="https://github.com/user-attachments/assets/884fd7e9-b974-4e4d-8b76-b68903a40322" />
 
 
 ## Fig 8: Elaboration Launch Option
@@ -223,20 +224,17 @@ Simulation allow to dump design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
-<img width="1920" height="1080" alt="Screenshot (193)" src="https://github.com/user-attachments/assets/82026a1a-c5d4-4fa1-96e0-d605a7d88c17" />
-
+<img width="1920" height="1080" alt="Screenshot (196)" src="https://github.com/user-attachments/assets/2dcf9e57-6958-4322-b452-8baa0c27d38a" />
 
 ## Fig 9: Design Browser window for simulation
 
 <img width="1920" height="1080" alt="Screenshot (197)" src="https://github.com/user-attachments/assets/ed487ac6-7d59-484f-be45-4f029688036d" />
 
-
-
-
-## Fig 10: Simulation Waveform Window
+### Fig 10: Launching Simulation Waveform WindowSimulation Waveform Window
 
 <img width="1920" height="1080" alt="Screenshot (199)" src="https://github.com/user-attachments/assets/634c3385-fc2f-4c95-80c9-05c3e4821e43" />
 
+### Fig 11: Simulation Waveform Window
 
 ### Result
 
